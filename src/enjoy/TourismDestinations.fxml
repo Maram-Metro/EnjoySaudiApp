@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="320.0" style="-fx-background-color: #FBF6F0;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="enjoy.TourismDestinationsController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="600.0" fitWidth="320.0" layoutY="302.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@images/background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="226.0" fitWidth="335.0" layoutX="-5.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/bord.png" />
+         </image>
+      </ImageView>
+      <Rectangle fill="#dfeceb" height="343.0" layoutX="27.0" layoutY="202.0" stroke="BLACK" strokeType="INSIDE" width="265.0" />
+      <Button layoutX="94.0" layoutY="337.0" mnemonicParsing="false" onMouseClicked="#moveRiyadh" prefHeight="45.0" prefWidth="128.0" style="-fx-background-radius: 32; -fx-border-color: #393253; -fx-background-color: #393253; -fx-border-radius: 32;" text="AL-Riyadh" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="211.0" fitWidth="222.0" layoutX="55.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/logo.png" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="combo" layoutX="55.0" layoutY="228.0" prefHeight="41.0" prefWidth="211.0" promptText="AL-Riyadh" style="-fx-background-color: #a1d1d5;" />
+      <Button layoutX="-2.0" layoutY="553.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="320.0" style="-fx-background-color: #fcf7f1;" textFill="WHITE" />
+      <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="4.0" layoutY="555.0" onMouseClicked="#moveHome">
+         <image>
+            <Image url="@images/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="261.0" layoutY="555.0" onMouseClicked="#moveHome">
+         <image>
+            <Image url="@images/home.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="51.0" layoutY="150.0" prefHeight="40.0" prefWidth="203.0" promptText=" Search Here" style="-fx-background-color: white; -fx-border-color: #393253;" />
+      <Rectangle fill="WHITE" height="40.0" layoutX="17.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <ImageView fitHeight="28.0" fitWidth="26.0" layoutX="19.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/search.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="253.0" layoutY="150.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="52.0" style="-fx-background-radius: 0; -fx-border-color: #393253; -fx-background-color: #a1d1d5; -fx-border-radius: 0;" text="Search" textAlignment="CENTER" textFill="#393253">
+         <font>
+            <Font name="Cambria Bold" size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="94.0" layoutY="407.0" mnemonicParsing="false" onMouseClicked="#moveJeddah" prefHeight="45.0" prefWidth="128.0" style="-fx-background-radius: 32; -fx-border-color: #393253; -fx-background-color: #393253; -fx-border-radius: 32;" text="Jeddah" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="94.0" layoutY="476.0" mnemonicParsing="false" onMouseClicked="#moveTabok" prefHeight="45.0" prefWidth="128.0" style="-fx-background-radius: 32; -fx-border-color: #393253; -fx-background-color: #393253; -fx-border-radius: 32;" text="Tabuk" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="18.0" />
+         </font>
+      </Button>
+      <Text fill="#393253" layoutX="84.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Most visited Places">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

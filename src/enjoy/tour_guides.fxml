@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="320.0" style="-fx-background-color: #FBF6F0;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="enjoy.Tour_guidesController">
+   <children>
+      <ImageView fitHeight="463.0" fitWidth="320.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="360.0" fitWidth="320.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="147.0" fitWidth="157.0" layoutX="83.0" layoutY="-26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/logo.png" />
+         </image>
+      </ImageView>
+      <ScrollPane layoutX="45.0" layoutY="154.0" prefHeight="384.0" prefWidth="245.0">
+         <content>
+            <Pane prefHeight="463.0" prefWidth="226.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fbf6f0" height="206.0" layoutX="2.0" stroke="BLACK" strokeType="INSIDE" width="224.0" />
+                  <Text fill="#342d4e" layoutX="13.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sara Almofaragi">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#342d4e" layoutX="13.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+966567890123">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#342d4e" layoutX="13.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="helpfull person and we will enjoy your tour in my city." wrappingWidth="190.0302734375">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#342d4e" layoutX="13.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al-Jubail">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="132.0" layoutY="155.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="84.0" style="-fx-background-color: #342D4E; -fx-background-radius: 20;" text="contact me" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fbf6f0" height="86.0" layoutX="2.0" layoutY="207.0" stroke="BLACK" strokeType="INSIDE" width="224.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fbf6f0" height="90.0" layoutX="2.0" layoutY="294.0" stroke="BLACK" strokeType="INSIDE" width="224.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fbf6f0" height="86.0" layoutX="2.0" layoutY="376.0" stroke="BLACK" strokeType="INSIDE" width="224.0" />
+                  <Text fill="#342d4e" layoutX="10.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Daniah Saidi">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#342d4e" layoutX="16.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jeddah">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="132.0" layoutY="245.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="84.0" style="-fx-background-color: #342D4E; -fx-background-radius: 20;" text="contact me" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+                  <Text fill="#342d4e" layoutX="13.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="tap to see details">
+                     <font>
+                        <Font size="12.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#342d4e" layoutX="11.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ahmed Bukhari">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#342d4e" layoutX="16.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jeddah">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#342d4e" layoutX="13.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="tap to see details">
+                     <font>
+                        <Font size="12.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="133.0" layoutY="329.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="84.0" style="-fx-background-color: #342D4E; -fx-background-radius: 20;" text="contact me" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+                  <Text fill="#342d4e" layoutX="9.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yasser Al-khaybari">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#342d4e" layoutX="20.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Riyadh">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#342d4e" layoutX="12.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="tap to see details">
+                     <font>
+                        <Font size="12.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="133.0" layoutY="413.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="84.0" style="-fx-background-color: #342D4E; -fx-background-radius: 20;" text="contact me" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+         </content>
+      </ScrollPane>
+      <Text fill="#342d4e" layoutX="74.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tour Guides">
+         <font>
+            <Font name="Bodoni MT Black" size="28.0" />
+         </font>
+      </Text>
+      <Button layoutX="1.0" layoutY="548.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="320.0" style="-fx-background-color: #fcf7f1;" textFill="WHITE" />
+      <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="4.0" layoutY="555.0" onMouseClicked="#moveHome">
+         <image>
+            <Image url="@images/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="261.0" layoutY="555.0" onMouseClicked="#moveHome">
+         <image>
+            <Image url="@images/home.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
