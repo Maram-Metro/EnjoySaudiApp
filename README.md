@@ -58,12 +58,7 @@ src/
 ├── ENJOY.java
 └── resources/images/
 
----
 
-## 📫 Author
-
-Developed by **Maram Metro**  
-GitHub: [Maram-Metro](https://github.com/Maram-Metro)
 
 ---
 
