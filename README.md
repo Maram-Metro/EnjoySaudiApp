@@ -48,17 +48,6 @@ Browse available local tour guides with their contact info and cities.
   - Monthly
 - Designed to simulate a tourism experience in Saudi Arabia
 
----
-
-## 📁 Structure
-
-src/
-├── controllers/
-├── views/
-├── ENJOY.java
-└── resources/images/
-
-
 
 ---
 
